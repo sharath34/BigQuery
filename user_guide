@@ -1,0 +1,9 @@
+1. I have removed the key paths, please use the path for key in your local machine
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "***Location of your keys***"
+
+2. code order
+        1.Create.py creates the dataset and empty tables
+        2.Load_Data.py writes the json files data into the tables created earlier
+        3.Analysis.py creates a new tables with results and exports the results into csv file.
+
+2. I have exported the results data in csv format
