@@ -1,7 +1,7 @@
 from google.cloud import bigquery
 import os
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\Users\Sharath\Downloads\key.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "***Use key location***"
 
 client = bigquery.Client()
 dataset_id = 'Test_Dataset'

@@ -2,7 +2,7 @@ from google.cloud import bigquery
 from bigquery import get_client
 import os
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\Users\Sharath\Downloads\key.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "***Use key location***"
 
 bigquery_client = bigquery.Client()
 
